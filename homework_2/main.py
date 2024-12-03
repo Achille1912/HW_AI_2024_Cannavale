@@ -47,13 +47,13 @@ def main():
     print("\n=== Exercise 3: Weather Analysis ===")
     weather_data = data_gen.generate_weather_data()
     
-    analyze_weather(weather_data)
+    #analyze_weather(weather_data)
     
     # Exercise 4: Traffic Analysis with Pandas
     print("\n=== Exercise 4: Website Traffic Analysis ===")
     traffic_data = data_gen.generate_traffic_data()
     
-    #analyze_traffic(traffic_data)
+    analyze_traffic(traffic_data)
  
 if __name__ == "__main__": 
     main() 
