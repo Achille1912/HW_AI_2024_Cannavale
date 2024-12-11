@@ -54,7 +54,7 @@ class DeliveryOptimizer:
         self.chromosome_length = None
         
         # Setup visualization
-        plt.style.use('seaborn')
+        plt.style.use('default')
         self.fig, (self.ax1, self.ax2) = plt.subplots(1, 2, figsize=(15, 5))
         
     def _select_parents(self, fitness_values: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
